@@ -6,7 +6,6 @@ Histogram equalization accomplishes this by effectively spreading out the most f
 
 OpenCV has a function to do this, cv2.equalizeHist(). Its input is just grayscale image and output is our histogram equalized image.Image Blurring refers to making the image less clear or distinct. It is done with the help of various low pass filter kernels.
 ![image](https://user-images.githubusercontent.com/125149919/221768200-97e4a384-d06e-4048-9b00-142c8adec902.png)
-
 Advantages of blurring:
 It helps in Noise removal. As noise is considered as high pass signal so by the application of low pass filter kernel we restrict noise.
 
